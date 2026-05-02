@@ -1,0 +1,88 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;validate-the-title-of-the-page-5",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validate the title of the page 5",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1115235300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the application",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673321100
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "YuvarajSSS"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "password",
+                      "Admin123324"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 30,
+            "name": "Enter the details for the form rowhash",
+            "match": {
+              "location": "step_definitions\\loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 960000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1163826000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
