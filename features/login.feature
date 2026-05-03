@@ -24,6 +24,11 @@ Feature: Login Feature
     When Enter the details for the form
     |username|password|
     |YuvarajSSS|Admin123324|
+    #testfive.
+     @smoke
+    Scenario: Validate the title of the page 5
+    When Enter the details for the form rowhash
+    |username|YuvarajSSS|
+    |password|Admin123324|
     #testsix  
-     
    
